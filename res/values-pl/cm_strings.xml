@@ -15,54 +15,54 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Message options - Add SMS to calendar -->
-    <string name="menu_add_to_calendar">Add to calendar</string>
+    <string name="menu_add_to_calendar">Dodaj do kalendarza</string>
 
     <!-- QM - Dialog box buttons -->
-    <string name="button_close">Close</string>
-    <string name="button_view">View</string>
-    <string name="button_templates">Templates</string>
+    <string name="button_close">Zamknij</string>
+    <string name="button_view">Pokaż</string>
+    <string name="button_templates">Szablony</string>
 
     <!-- QM - Hint text in message body field when keyboard is exposed -->
-    <string name="type_to_reply_text_enter_to_send">Type to reply</string>
+    <string name="type_to_reply_text_enter_to_send">Wpisz odpowiedz</string>
 
     <!-- QM - Toast -->
-    <string name="toast_sending_message">Sending message</string>
+    <string name="toast_sending_message">Wysyłanie wiadomości</string>
 
     <!-- QM - Quick reply -->
-    <string name="qm_quick_reply">Reply</string>
-    <string name="qm_mark_read">Read</string>
+    <string name="qm_quick_reply">Odpowiedz</string>
+    <string name="qm_mark_read">Przeczytane</string>
 
     <!-- QM - Counter separator -->
     <string name="message_counter_separator">of</string>
 
     <!-- NOTIFICATIONS -->
     <!-- Privacy mode -->
-    <string name="pref_title_notification_privacy_mode_enabled">Privacy mode</string>
-    <string name="pref_summary_notification_privacy_mode_enabled">Hide sender and message in status bar and disable \'Quick reply\'</string>
-    <string name="notification_single_title_privacy_mode">New message</string>
-    <string name="notification_single_text_privacy_mode">1 unread message</string>
-    <string name="notification_multiple_title_privacy_mode">New messages</string>
-    <string name="notification_multiple_text_privacy_mode"><xliff:g id="number" example="3">%1$s</xliff:g> unread messages</string>
-    <string name="notification_ticker_privacy_mode">New message received</string>
+    <string name="pref_title_notification_privacy_mode_enabled">Tryb prywatności</string>
+    <string name="pref_summary_notification_privacy_mode_enabled">Ukryj nadawcę i wiadomość na pasku statusu i wyłącz \'Szybką odpowiedź\'</string>
+    <string name="notification_single_title_privacy_mode">Nowa wiadomość</string>
+    <string name="notification_single_text_privacy_mode">1 nieprzeczytana wiadomość</string>
+    <string name="notification_multiple_title_privacy_mode">Nowe wiadomości</string>
+    <string name="notification_multiple_text_privacy_mode"><xliff:g id="number" example="3">%1$s</xliff:g> nieprzeczytane wiadomości</string>
+    <string name="notification_ticker_privacy_mode">Otrzymano nową wiadomość</string>
 
     <!-- QUICKMESSAGE -->
-    <string name="pref_quickmessage">Quick reply</string>
+    <string name="pref_quickmessage">Szybka odpowiedź</string>
 
     <!-- Use dark theme -->
-    <string name="pref_dark_theme_title">Use dark theme</string>
-    <string name="pref_dark_theme_summary">If not selected, the default \'light\' theme will be used</string>
+    <string name="pref_dark_theme_title">Użyj ciemnego motywu</string>
+    <string name="pref_dark_theme_summary">Jeśli opcja nie jest zaznaczona, domyślnie będzie używany \'jasny\' motyw</string>
 
     <!-- Show pop-up -->
-    <string name="pref_quickmessage_title">Show pop-up</string>
-    <string name="pref_quickmessage_summary">Display the QuickMessage pop-up for incoming SMS messages</string>
+    <string name="pref_quickmessage_title">Włącz szybkie wiadomości</string>
+    <string name="pref_quickmessage_summary">Pokaż wyskakujące okno wiadomości</string>
 
     <!-- Wake and unlock -->
-    <string name="pref_wake_unlock_title">Wake and unlock</string>
-    <string name="pref_wake_unlock_summary">Wake and unlock device on incoming message (insecure lock screens only)</string>
+    <string name="pref_wake_unlock_title">Wybudź i odblokuj</string>
+    <string name="pref_wake_unlock_summary">Wybudź i odblokuj urządzenie przy nadejściu wiadomości (tylko przy niezabepieczonym ekranie blokady)</string>
 
     <!-- Close all messages -->
-    <string name="pref_close_all_title">Close all</string>
-    <string name="pref_close_all_summary">Close button closes all messages</string>
+    <string name="pref_close_all_title">Zamknij wszystkie</string>
+    <string name="pref_close_all_summary">Przycisk "Zamknij" zamyka wszystkie wiadomości</string>
 
     <!-- SMS TEMPLATES -->
     <string name="prefs_templates_settings">SMS templates</string>
