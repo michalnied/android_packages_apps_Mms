@@ -68,55 +68,55 @@
     <string name="prefs_templates_settings">SMS templates</string>
 
     <!-- Manage SMS templates -->
-    <string name="pref_title_templates_manage">Templates</string>
-    <string name="pref_summary_templates_manage">Manage your SMS templates</string>
-    <string name="template_explanation">Insert or modify the template text and optionally draw a gesture to associate it</string>
-    <string name="template_insert_hint">Insert here the template text</string>
-    <string name="template_empty_text">Text field cannot be empty</string>
-    <string name="template_save">Save</string>
-    <string name="template_ctx_menu_title">Actions</string>
-    <string name="template_edit">Edit</string>
-    <string name="template_delete">Delete</string>
-    <string name="template_list_title">Templates</string>
-    <string name="template_new_title">New template</string>
-    <string name="template_insert">Insert template</string>
-    <string name="template_gesture_draw">Draw the gesture in the space below</string>
-    <string name="template_not_present_error">There are no defined templates</string>
-    <string name="template_not_present_error_title">Error</string>
-    <string name="template_select">Select a template</string>
-    <string name="template_confirm_dialog_title">Delete?</string>
-    <string name="gestures_already_present">A similar gesture is already associated with another template</string>
-    <string name="select_template">Select templates</string>
+    <string name="pref_title_templates_manage">Szablony</string>
+    <string name="pref_summary_templates_manage">Zarządzaj swoimi szablonami SMS</string>
+    <string name="template_explanation">Wstaw lub modyfikuj tekst szablonu i opcjonalnie narysuj dla niego gest</string>
+    <string name="template_insert_hint">To wstaw tekst szblonu</string>
+    <string name="template_empty_text">Pole nie może zostać puste</string>
+    <string name="template_save">Zapisz</string>
+    <string name="template_ctx_menu_title">Działania</string>
+    <string name="template_edit">Edytuj</string>
+    <string name="template_delete">Usuń</string>
+    <string name="template_list_title">Szablony</string>
+    <string name="template_new_title">Nowy szblon</string>
+    <string name="template_insert">Wstaw szablon</string>
+    <string name="template_gesture_draw">Narysuj gest w polu poniżej</string>
+    <string name="template_not_present_error">Brak zdefiniowanych szblonów</string>
+    <string name="template_not_present_error_title">Błąd</string>
+    <string name="template_select">Wybierz szablon</string>
+    <string name="template_confirm_dialog_title">Usunąć?</string>
+    <string name="gestures_already_present">Podobny gest jest już powiązany z innym szablonem</string>
+    <string name="select_template">Wybierz szablony</string>
 
     <!-- Show gesture trace -->
-    <string name="pref_title_templates_show_gesture">Gesture</string>
-    <string name="pref_summary_templates_show_gesture">Show gesture trace</string>
+    <string name="pref_title_templates_show_gesture">Gest</string>
+    <string name="pref_summary_templates_show_gesture">Pokaż ślad gestu</string>
 
     <!-- Gesture sensitivity -->
-    <string name="pref_title_template_gestures_sensitivity">Gesture sensitivity</string>
+    <string name="pref_title_template_gestures_sensitivity">Czułość gestu</string>
 
     <!-- EXTRA SETTINGS -->
-    <string name="pref_extra_settings">Extra settings</string>
+    <string name="pref_extra_settings">Ustawienia dodatkowe</string>
 
     <!-- Strip unicode -->
-    <string name="pref_title_unicode_stripping">Strip unicode</string>
-    <string name="pref_unicode_stripping_leave_intact">Leave characters intact</string>
-    <string name="pref_unicode_stripping_non_encodable">Strip non-encodable characters</string>
-    <string name="pref_unicode_stripping_all">Strip all unicode characters</string>
+    <string name="pref_title_unicode_stripping">Opuszcznie unicode</string>
+    <string name="pref_unicode_stripping_leave_intact">Pozostał znaki niezmienione</string>
+    <string name="pref_unicode_stripping_non_encodable">Opuszczaj znaki niekodowane</string>
+    <string name="pref_unicode_stripping_all">Opuszczaj wszystkie znaki</string>
 
     <!-- Full timestamps -->
-    <string name="pref_title_mms_full_timestamp">Full timestamps</string>
-    <string name="pref_summary_mms_full_timestamp">Display both date and time in timestamps</string>
+    <string name="pref_title_mms_full_timestamp">Pełna data</string>
+    <string name="pref_summary_mms_full_timestamp">Wyświetla pełną datę oraz czas w wiadomościach</string>
 
     <!-- Original timestamps -->
-    <string name="pref_title_mms_use_sent_timestamp">Original timestamps</string>
-    <string name="pref_summary_mms_use_sent_timestamp">Display sent date instead of received date in timestamps</string>
+    <string name="pref_title_mms_use_sent_timestamp">Oryginalna data</string>
+    <string name="pref_summary_mms_use_sent_timestamp">Wyświetla datę wysłania zamiast daty odebrania wiadomości</string>
 
     <!-- Soft keyboard type -->
-    <string name="pref_title_input_type">Soft keyboard type</string>
-    <string name="pref_keyboard_emoji">Show the Emoticons key</string>
-    <string name="pref_keyboard_new_line">Show the Enter key</string>
-    <string name="pref_keyboard_unknown">Unknown, please reselect</string>
+    <string name="pref_title_input_type">Typ klawiatury</string>
+    <string name="pref_keyboard_emoji">Pokaż przycisk emotikon</string>
+    <string name="pref_keyboard_new_line">Pokaż przycisk Enter</string>
+    <string name="pref_keyboard_unknown">Nieznany typ, wybierz ponownie</string>
 
     <!-- Settings item for boolean option for SMS Split Counter -->
     <string name="pref_title_sms_split_counter">Split counter</string>
