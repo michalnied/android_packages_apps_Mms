@@ -23,7 +23,7 @@
     <string name="button_templates">Szablony</string>
 
     <!-- QM - Hint text in message body field when keyboard is exposed -->
-    <string name="type_to_reply_text_enter_to_send">Wpisz odpowiedz</string>
+    <string name="type_to_reply_text_enter_to_send">Wpisz odpowiedź</string>
 
     <!-- QM - Toast -->
     <string name="toast_sending_message">Wysyłanie wiadomości</string>
@@ -38,7 +38,7 @@
     <!-- NOTIFICATIONS -->
     <!-- Privacy mode -->
     <string name="pref_title_notification_privacy_mode_enabled">Tryb prywatności</string>
-    <string name="pref_summary_notification_privacy_mode_enabled">Ukryj nadawcę i wiadomość na pasku statusu i wyłącz \'Szybką odpowiedź\'</string>
+    <string name="pref_summary_notification_privacy_mode_enabled">Ukryj nadawcę i wiadomość na pasku stanu i wyłącz \'Szybką odpowiedź\'</string>
     <string name="notification_single_title_privacy_mode">Nowa wiadomość</string>
     <string name="notification_single_text_privacy_mode">1 nieprzeczytana wiadomość</string>
     <string name="notification_multiple_title_privacy_mode">Nowe wiadomości</string>
@@ -54,7 +54,7 @@
 
     <!-- Show pop-up -->
     <string name="pref_quickmessage_title">Włącz szybkie wiadomości</string>
-    <string name="pref_quickmessage_summary">Pokaż wyskakujące okno wiadomości</string>
+    <string name="pref_quickmessage_summary">Pokaż wyskakujące okienko wiadomości</string>
 
     <!-- Wake and unlock -->
     <string name="pref_wake_unlock_title">Wybudź i odblokuj</string>
@@ -65,14 +65,14 @@
     <string name="pref_close_all_summary">Przycisk "Zamknij" zamyka wszystkie wiadomości</string>
 
     <!-- SMS TEMPLATES -->
-    <string name="prefs_templates_settings">SMS templates</string>
+    <string name="prefs_templates_settings">Szablony SMS</string>
 
     <!-- Manage SMS templates -->
     <string name="pref_title_templates_manage">Szablony</string>
     <string name="pref_summary_templates_manage">Zarządzaj swoimi szablonami SMS</string>
     <string name="template_explanation">Wstaw lub modyfikuj tekst szablonu i opcjonalnie narysuj dla niego gest</string>
-    <string name="template_insert_hint">To wstaw tekst szblonu</string>
-    <string name="template_empty_text">Pole nie może zostać puste</string>
+    <string name="template_insert_hint">Tu wstaw tekst szblonu</string>
+    <string name="template_empty_text">Pole nie może pozostać puste</string>
     <string name="template_save">Zapisz</string>
     <string name="template_ctx_menu_title">Działania</string>
     <string name="template_edit">Edytuj</string>
@@ -100,7 +100,7 @@
 
     <!-- Strip unicode -->
     <string name="pref_title_unicode_stripping">Opuszcznie unicode</string>
-    <string name="pref_unicode_stripping_leave_intact">Pozostał znaki niezmienione</string>
+    <string name="pref_unicode_stripping_leave_intact">Pozostaw znaki niezmienione</string>
     <string name="pref_unicode_stripping_non_encodable">Opuszczaj znaki niekodowane</string>
     <string name="pref_unicode_stripping_all">Opuszczaj wszystkie znaki</string>
 
@@ -119,75 +119,75 @@
     <string name="pref_keyboard_unknown">Nieznany typ, wybierz ponownie</string>
 
     <!-- Settings item for boolean option for SMS Split Counter -->
-    <string name="pref_title_sms_split_counter">Split counter</string>
+    <string name="pref_title_sms_split_counter">Licznik podziału</string>
     <!-- Settings item description for boolean SMS Split 160 characters setting -->
-    <string name="pref_summary_sms_split_counter">Adds counter to message ex. (1/2)</string>
+    <string name="pref_summary_sms_split_counter">Dodaje liczniki podziału do wiadomości, np. (1/2)</string>
 
     <!-- Blacklist preferences -->
-    <string name="blacklist_title">Blacklist</string>
-    <string name="blacklist_summary_disabled">Disabled</string>
-    <string name="blacklist_summary">Incoming messages from phone numbers in the blacklist will be blocked</string>
+    <string name="blacklist_title">Czarna lista</string>
+    <string name="blacklist_summary_disabled">Wyłączona</string>
+    <string name="blacklist_summary">Wiadomości przychodzące z numerów na czarnej liście będą blokowane</string>
 
     <!-- Blacklist notifications -->
-    <string name="blacklist_notification">Blocked a message from %s</string>
-    <string name="blacklist_notification_private_number">Blocked a message from a private number</string>
-    <string name="blacklist_notification_list_private">Private</string>
-    <string name="blacklist_notification_unknown_number">Blocked a message from unknown number %s</string>
-    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> messages were blocked</string>
-    <string name="unblock_number">Unblock</string>
+    <string name="blacklist_notification">Zablokowano wiadomość od %s</string>
+    <string name="blacklist_notification_private_number">Zablokowano wiadomość z numeru prywatnego</string>
+    <string name="blacklist_notification_list_private">Prywatność</string>
+    <string name="blacklist_notification_unknown_number">Zablokowano wiadomość z nieznanego numeru %s</string>
+    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> wiadomości zostało zablokowanych</string>
+    <string name="unblock_number">Odblokuj</string>
 
     <!-- Blacklist management -->
-    <string name="add_to_blacklist">Add to blacklist</string>
-    <string name="add_to_blacklist_message">Future messages from %s will be blocked</string>
+    <string name="add_to_blacklist">Dodaj do czarnej listy</string>
+    <string name="add_to_blacklist_message">Przyszłe wiadomości od %s zostaną zablokowane</string>
 
     <!-- Generic blacklist handling -->
-    <string name="alert_dialog_yes">Yes</string>
-    <string name="alert_dialog_no">No</string>
+    <string name="alert_dialog_yes">Tak</string>
+    <string name="alert_dialog_no">Nie</string>
 
     <!-- Delay delivery -->
-    <string name="pref_title_send_delay">Delivery delay</string>
-    <string name="send_delay_immediate">Send immediately</string>
-    <string name="send_delay_3seconds">3 seconds</string>
-    <string name="send_delay_5seconds">5 seconds</string>
-    <string name="send_delay_10seconds">10 seconds</string>
-    <string name="send_delay_20seconds">20 seconds</string>
-    <string name="send_delay_30seconds">30 seconds</string>
-    <string name="sent_countdown">Message delivery countdown</string>
+    <string name="pref_title_send_delay">Opóźnienie doręczenia</string>
+    <string name="send_delay_immediate">Wyślij natychmiast</string>
+    <string name="send_delay_3seconds">3 sekundy</string>
+    <string name="send_delay_5seconds">5 sekund</string>
+    <string name="send_delay_10seconds">10 sekund</string>
+    <string name="send_delay_20seconds">20 sekund</string>
+    <string name="send_delay_30seconds">30 sekund</string>
+    <string name="sent_countdown">Odliczanie dostarczenia wiadomości</string>
 
     <!-- Vibrate pattern -->
-    <string name="pref_title_mms_notification_vibrate_pattern">Vibrate pattern</string>
-    <string name="pref_summary_mms_notification_vibrate_pattern">Change vibrate pattern</string>
-    <string name="pref_mms_notification_vibrate_normal">Normal</string>
-    <string name="pref_mms_notification_vibrate_med_vib">Medium vibrate</string>
-    <string name="pref_mms_notification_vibrate_long_vib">Long vibrate</string>
-    <string name="pref_mms_notification_vibrate_mult_short">Multiple short</string>
-    <string name="pref_mms_notification_vibrate_mult_long">Multiple long</string>
+    <string name="pref_title_mms_notification_vibrate_pattern">Wzór wibracji</string>
+    <string name="pref_summary_mms_notification_vibrate_pattern">Zmień wzór wibracji</string>
+    <string name="pref_mms_notification_vibrate_normal">Normalny</string>
+    <string name="pref_mms_notification_vibrate_med_vib">Średnia wibracja</string>
+    <string name="pref_mms_notification_vibrate_long_vib">Długa wibracja</string>
+    <string name="pref_mms_notification_vibrate_mult_short">Krótkie wiele razy</string>
+    <string name="pref_mms_notification_vibrate_mult_long">Długie wiele razy</string>
 
     <!-- Message Font size -->
-    <string name="pref_title_mms_message_font_size">Message font size</string>
-    <string name="pref_summary_mms_message_font_size">Change font size of message view</string>
-    <string name="pref_dialogtitle_mms_message_font_size">Select font size</string>
+    <string name="pref_title_mms_message_font_size">Rozmiar czcionki wiadomości</string>
+    <string name="pref_summary_mms_message_font_size">Zmień rozmiar czcionki w widoku wiadomości</string>
+    <string name="pref_dialogtitle_mms_message_font_size">Wybierz wielkość czcionki</string>
 
-    <string name="start_new_message_button">New message</string>
+    <string name="start_new_message_button">Nowa wiadomość</string>
 
     <!-- SMS backup -->
-    <string name="prefs_title_export_sms_messages">Export SMS messages</string>
-    <string name="prefs_title_import_sms_messages">Import SMS messages</string>
-    <string name="import_sms_title">Import SMS</string>
-    <string name="export_sms_title">Export SMS</string>
-    <string name="delete_sms_title">Delete SMS</string>
-    <string name="pick_sms_backup_title">Pick SMS backup</string>
-    <string name="delete_sms_toast">SMS message deleted successfully</string>
-    <string name="import_sms_toast">SMS imported successfully</string>
-    <string name="export_sms_toast">SMS exported successfully</string>
-    <string name="perform_backup_title">Performing backup</string>
-    <string name="perform_restore_title">Performing restore</string>
-    <string name="wait_progress_message">Please wait...</string>
-    <string name="backup_file_name_message">File path : %1s</string>
-    <string name="manage_sdcard_messages">Manage sdcard messages</string>
-    <string name="no_backups_found">No backed up messages found</string>
+    <string name="prefs_title_export_sms_messages">Eksportuj wiadomości SMS</string>
+    <string name="prefs_title_import_sms_messages">Importuj wiadomości SMS</string>
+    <string name="import_sms_title">Importuj SMS-y</string>
+    <string name="export_sms_title">Exportuj SMS-y</string>
+    <string name="delete_sms_title">Usuń SMS-y</string>
+    <string name="pick_sms_backup_title">Wybierz kopię zapasową SMS</string>
+    <string name="delete_sms_toast">Wiadomość SMS została pomyślnie usunięta</string>
+    <string name="import_sms_toast">SMS-y zostały pomyślnie zaimportowane</string>
+    <string name="export_sms_toast">SMS-y zostały pomyślnie wyeksportowane</string>
+    <string name="perform_backup_title">Wykonywanie kopii zapasowej</string>
+    <string name="perform_restore_title">Przywracanie kopii zapasowej</string>
+    <string name="wait_progress_message">Proszę czekać...</string>
+    <string name="backup_file_name_message">Ścieżka pliku : %1s</string>
+    <string name="manage_sdcard_messages">Zarządzaj wiadomościami na karcie SD</string>
+    <string name="no_backups_found">Nie znaleziono zarchiwizowanych wiadomości</string>
 
     <!-- Extra message options -->
-    <string name="message_share">Share</string>
-    <string name="message_share_intent_title">Share message</string>
+    <string name="message_share">Udostępnij</string>
+    <string name="message_share_intent_title">Udostępnij wiadomość</string>
 </resources>
